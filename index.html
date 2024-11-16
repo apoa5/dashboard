@@ -1,12 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <h1>Heyyyy</h1>
+    <div class="container">
+        <div class="header">
+            <div class="searchArea">
+                <div class="searchArea-left">
+                    <img src="assets/magnify.svg" alt="Search Icon" width="25px" height="25px">
+                    <input type="text" class="searchBar">
+                </div>
+                <div class="searchArea-right">
+                    <img src="assets/bell-ring-outline.svg" alt="Notification" width="25px" height="25px">
+                    <div class="profileImage"></div>
+                    <div class="profileName"> Akwasi Agyei</div>
+                </div>
+            </div>
+            <div class="userProfile">
+                <div class="userProfile-left">
+                    <div class="profileImage"></div>
+                    <div class="userGreeting">
+                        <p>Hi there,</p>
+                        <div class="userProfileName"> Akwasi Agyei (@apoa5)</div>
+                    </div>
+                </div>
+                <div class="userProfile-right">
+                    <button class="headerButton">New</button>
+                    <button class="headerButton">Upload</button>
+                    <button class="headerButton">Share</button>
+                </div>
+            </div>
+        </div>
+        <div class="sidebar">
+            <div class="sidebar-main">
+                <img src="assets/view-dashboard.svg" alt="Dashboard" width="40px" height="40px">
+                <div class="sidebar-main-text">Dashboard</div>
+            </div>
+            <div class="navigation">
+                <div class="nav-item">
+                    <img src="assets/home.svg" alt="Home" width="25px" height="25px">
+                    <div>Home</div>
+                </div>
+                <div class="nav-item">
+                    <img src="assets/profile.svg" alt="Profile" width="25px" height="25px">
+                    <div>Profile</div>
+                </div>
+                <div class="nav-item">
+                    <img src="assets/message.svg" alt="Messages" width="25px" height="25px">
+                    <div>Messages</div>
+                </div>
+                <div class="nav-item">
+                    <img src="assets/clock-outline.svg" alt="History" width="25px" height="25px">
+                    <div>History</div>
+                </div>
+                <div class="nav-item">
+                    <img src="assets/calendar-check.svg" alt="Tasks" width="25px" height="25px">
+                    <div>Tasks</div>
+                </div>
+                <div class="nav-item">
+                    <img src="assets/account-group.svg" alt="Communities" width="25px" height="25px">
+                    <div>Communities</div>
+                </div>
+            </div>
+            <div class="settings">
+                <div class="nav-item">
+                    <img src="assets/cog.svg" alt="Settings" width="25px" height="25px">
+                    <div>Settings</div>
+                </div>
+                <div class="nav-item">
+                    <img src="assets/help-box.svg" alt="Support" width="25px" height="25px">
+                    <div>Support</div>
+                </div>
+                <div class="nav-item">
+                    <img src="assets/shield-check.svg" alt="Privacy" width="25px" height="25px">
+                    <div>Privacy</div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="projectsArea">
+                <div class="contentHeader">Your Projects</div>
+                <div class="projectGrid">
+                    <div class="projectCard">
+                        <div class="projectCard-content">
+                            <div class="projectTitle">Project 1</div>
+                            <div class="projectDescription">This is the description for this project</div>
+                        </div>
+                        <div class="projectLinks">
+                            <img src="assets/star-plus-outline.svg" alt="Add to Favourites" width="25px" height="25px">
+                            <img src="assets/eye-plus-outline.svg" alt="Preview Project" width="25px" height="25px">
+                            <img src="assets/share-variant-outline.svg" alt="Share" width="25px" height="25px">
+                        </div>
+                    </div>
+                    <div class="projectCard">
+                        <div class="projectCard-content">
+                            <div class="projectTitle">Project 2</div>
+                            <div class="projectDescription">This is the description for this project</div>
+                        </div>
+                        <div class="projectLinks">
+                            <img src="assets/star-plus-outline.svg" alt="Add to Favourites" width="25px" height="25px">
+                            <img src="assets/eye-plus-outline.svg" alt="Preview Project" width="25px" height="25px">
+                            <img src="assets/share-variant-outline.svg" alt="Share" width="25px" height="25px">
+                        </div>
+                    </div>
+                    <div class="projectCard">
+                        <div class="projectCard-content">
+                            <div class="projectTitle">Project 3</div>
+                            <div class="projectDescription">This is the description for this project</div>
+                        </div>
+                        <div class="projectLinks">
+                            <img src="assets/star-plus-outline.svg" alt="Add to Favourites" width="25px" height="25px">
+                            <img src="assets/eye-plus-outline.svg" alt="Preview Project" width="25px" height="25px">
+                            <img src="assets/share-variant-outline.svg" alt="Share" width="25px" height="25px">
+                        </div>
+                    </div>
+                    <div class="projectCard">
+                        <div class="projectCard-content">
+                            <div class="projectTitle">Project 4</div>
+                            <div class="projectDescription">This is the description for this project</div>
+                        </div>
+                        <div class="projectLinks">
+                            <img src="assets/star-plus-outline.svg" alt="Add to Favourites" width="25px" height="25px">
+                            <img src="assets/eye-plus-outline.svg" alt="Preview Project" width="25px" height="25px">
+                            <img src="assets/share-variant-outline.svg" alt="Share" width="25px" height="25px">
+                        </div>
+                    </div>
+                    <div class="projectCard">
+                        <div class="projectCard-content">
+                            <div class="projectTitle">Project 5</div>
+                            <div class="projectDescription">This is the description for this project</div>
+                        </div>
+                        <div class="projectLinks">
+                            <img src="assets/star-plus-outline.svg" alt="Add to Favourites" width="25px" height="25px">
+                            <img src="assets/eye-plus-outline.svg" alt="Preview Project" width="25px" height="25px">
+                            <img src="assets/share-variant-outline.svg" alt="Share" width="25px" height="25px">
+                        </div>
+                    </div>
+                    <div class="projectCard">
+                        <div class="projectCard-content">
+                            <div class="projectTitle">Project 6</div>
+                            <div class="projectDescription">This is the description for this project</div>
+                        </div>
+                        <div class="projectLinks">
+                            <img src="assets/star-plus-outline.svg" alt="Add to Favourites" width="25px" height="25px">
+                            <img src="assets/eye-plus-outline.svg" alt="Preview Project" width="25px" height="25px">
+                            <img src="assets/share-variant-outline.svg" alt="Share" width="25px" height="25px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="announcementArea">
+                <div class="container1">
+                    <div class="contentHeader">Announcements</div>
+                    <div class="announcementCard">
+                        <div class="announcement-item">
+                            <div class="announcementTitle">Site Maintenance</div>
+                            <p>Some random text for now</p>
+                        </div>
+                        <div class="announcement-item">
+                            <div class="announcementTitle">Community Share Day</div>
+                            <p>More random text for now</p>
+                        </div>
+                        <div class="announcement-item">
+                            <div class="announcementTitle">Updated Privacy Policy</div>
+                            <p>This is the last time, I promise</p>
+                        </div>    
+                    </div>
+                </div>
+                <div class="container2">
+                    <div class="contentHeader">Trending</div>
+                <div class="trendingCard">
+                    <div class="trending-item">
+                        <div class="trendingProfile"></div>
+                        <div class="trendingUser">
+                            <div class="trendingHandle">@tegan</div>
+                            <div class="trendingProject">World Peace Builder</div>
+                        </div>
+                    </div>
+                    <div class="trending-item">
+                        <div class="trendingProfile"></div>
+                        <div class="trendingUser">
+                            <div class="trendingHandle">@morgan</div>
+                            <div class="trendingProject">Super Cool Project</div>
+                        </div>
+                    </div>
+                    <div class="trending-item">
+                        <div class="trendingProfile"></div>
+                        <div class="trendingUser">
+                            <div class="trendingHandle">@kendall</div>
+                            <div class="trendingProject">Life Changing App</div>
+                        </div>
+                    </div>
+                    <div class="trending-item">
+                        <div class="trendingProfile"></div>
+                        <div class="trendingUser">
+                            <div class="trendingHandle">@alex</div>
+                            <div class="trendingProject">No Traffic Maker</div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
