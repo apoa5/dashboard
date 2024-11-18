@@ -142,7 +142,6 @@
 
 .navigation, .settings {
     display: grid;
-    row-gap: 15px;
     margin-bottom: 60px;
 }
 
