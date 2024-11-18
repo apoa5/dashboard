@@ -110,6 +110,11 @@
     border-radius: 15px;
     color: white;
     cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.headerButton:hover {
+    background-color: #042f2e;
 }
 
 /*Sidebar content*/
@@ -138,14 +143,20 @@
 .navigation, .settings {
     display: grid;
     row-gap: 15px;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 
 .nav-item {
+    padding: 10px;
     display: flex;
     align-items: center;
     gap: 15px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.nav-item:hover {
+    background-color: #042f2e;
 }
 
 /*Content area*/
@@ -176,6 +187,7 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
+    border-left: 12px solid #134e4a;
 }
 
 .projectTitle {
@@ -192,6 +204,10 @@
     display: flex;
     gap: 15px;
     justify-content: end;
+}
+
+.projectLinks img {
+    cursor: pointer;
 }
 
 .projectsArea {
